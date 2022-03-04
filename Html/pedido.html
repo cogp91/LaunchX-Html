@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taconauta Pedido</title>
+        <style>
+            header{
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav {
+                width: 10%;
+                height: 20px;
+                background: #ccc;
+                padding: 20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            section::after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+    
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            img {
+                width: fit-content;
+                padding-left: 45%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h4>Pasteleria Wata</h4>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./inicio.html">Regresar al Menu</a></li>
+                </ul>
+            </nav>
+        </section>
+        <h1>Aqui se hace el pedido</h1>
+       
+        <form action="pedido.js">
+            <label for="Nombre">Danos tu Nombre</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+            <label for="Telefono">Danos tu Telefono (10 numeros)</label><br>
+            <input type="tel" id="Telefono" name="Telefono" maxlength="10" placeholder="1234567890"><br>
+            <label for="Correo">Danos tu Correo</label><br>
+            <input type="email" id="Correo" name="Correo" placeholder="TuCorreo@sitio.com"><br>
+            <label for="Descripcion">Danos tu Descripcion del pastel</label><br>
+            <input type="text" id="Descripcion" name="Descripcion" placeholder="Descripcion"><br>
+            <p>Escoge tus sabores:</p>
+            <input type="radio" id="sabor1" name="sabor" value="Chocolate">
+            <label for="sabor1">Pastel de Chocolate</label><br>
+            <input type="radio" id="sabor2" name="sabor" value="Vainilla">
+            <label for="sabor2">Pastel de Vainilla</label><br>
+            <input type="radio" id="sabor3" name="sabor" value="Pistache">
+            <label for="sabor3">Pastel de Pistache</label><br>
+            <input type="radio" id="sabor4" name="sabor" value="TresLeches">
+            <label for="sabor4">Pastel de Tres leches</label><br>
+            <p>Escoge tus adornos:</p>
+            <input type="checkbox" id="adornos1" name="adornos1" value="Ferrero">
+            <label for="adornos1">Ferrero</label><br>
+            <input type="checkbox" id="adornos2" name="adornos2" value="Chispas">
+            <label for="adornos2">Chispas</label><br>
+            <input type="checkbox" id="adornos3" name="adornos3" value="Oro">
+            <label for="adornos3">Oro</label><br>
+            <input type="checkbox" id="adornos4" name="adornos4" value="Nuez">
+            <label for="adornos4">Nuez</label><br>
+            
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+        </form>
+        <br><br>
+        <img src="./assets/img/logo.png" alt="logo pasteleria wata" width="150px">
+        <footer>
+            <p>Direccion: Calle X #7, Colonia Y, Z. CP:000000</p>
+            <p>Telefono: 1234567890</p>
+            <p>Horarios de atencion: Lunes - Domingo </p>
+            <p>8:00AM - 6:00PM</p>
+        </footer>
+
+    </body>
+</html>

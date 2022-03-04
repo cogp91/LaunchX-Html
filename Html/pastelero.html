@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taconauta</title>
+        <style>
+            header{
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+            nav {
+                width: 10%;
+                height: 20px;
+                background: #ccc;
+                padding: 20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            section::after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+        
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
+            input[type=number] {
+                width: 5%;
+            }
+            img {
+                width: fit-content;
+                padding-left: 45%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h4>Pasteleria Wata</h4>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./inicio.html">Regresar al Menu</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <h2>Cantidad de sabores restantes</h2>
+        <ul>
+            <li>Chocolate <input type="number" maxlength="3" value="25" disabled></li>
+            <li>Vainilla <input type="number" maxlength="3" value="40" disabled></li>
+            <li>Pistache <input type="number" maxlength="3" value="38" disabled></li>
+            <li>Tres leches <input type="number" maxlength="3" value="100" disabled></li>
+        </ul>
+
+        <h2>Cantidad de adornos restantes</h2>
+        <ul>
+            <li>Ferrero <input type="number" maxlength="3" value="25" disabled></li>
+            <li>Chispas <input type="number" maxlength="3" value="15" disabled></li>
+            <li>Oro <input type="number" maxlength="3" value="5" disabled></li>
+            <li>Nuez <input type="number" maxlength="3" value="100" disabled></li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Pedido #</th>
+                <th>Nombre</th>
+                <th>Telefono</th>
+                <th>Correo</th>
+                <th>Descripcion</th>
+                <th>Sabor</th>
+                <th>Adornos</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Carlos</td>
+                <td>1234556678</td>
+                <td>carlos@gmail.com</td>
+                <td>Para 10 personas</td>
+                <td>Pistache</td>
+                <td>Nuez</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Juan</td>
+                <td>0987654321</td>
+                <td>juan@gmail.com</td>
+                <td>Para 5 personas</td>
+                <td>Vainilla</td>
+                <td>Ferrero, Nuez</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ricardo</td>
+                <td>1234509876</td>
+                <td>ricardo@gmail.com</td>
+                <td>Para 8 personas</td>
+                <td>Chocolate</td>
+                <td>Oro</td>
+            </tr>
+        </table>
+        <br><br>
+        <img src="./assets/img/logo.png" alt="logo taconauta" width="150px">
+
+        <footer>
+            <p>Direccion: Calle X #7, Colonia Y, Z. CP:000000</p>
+            <p>Telefono: 1234567890</p>
+            <p>Horarios de atencion: Lunes - Domingo </p>
+            <p>8:00AM - 6:00PM</p>
+        </footer>
+    </body>
+</html>
