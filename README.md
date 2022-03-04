@@ -14,10 +14,10 @@ Descripción:
     El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
     La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
-Archivos (html):
+Archivos (html):<br/>
 [Archivo de Inicio](https://github.com/cogp91/LaunchX-Html/blob/main/Html/inicio.html)<br/>
 [Archivo de Pedidos](https://github.com/cogp91/LaunchX-Html/blob/main/Html/pedido.html)<br/>
 [Archivo de Pastelero](https://github.com/cogp91/LaunchX-Html/blob/main/Html/pastelero.html)<br/>
 
-Imagenes:
+Imagenes:<br/>
 [Imagen del Logo](https://github.com/cogp91/LaunchX-Html/blob/main/Html/assets/img/logo.png)
